@@ -7,6 +7,10 @@ Wichtigster Parameter ist die action, die bestimmt, was gefragt und zurückgegeb
 Die zurückgegebenen Daten enthalten immer einen Status, eine Meldung und bei Erfolg die zurückgegebenen Daten.
 Folgende Aktionen sind möglich:
 
+## Implementations
+* https://github.com/hoersuppe/hoerapi.py
+* https://github.com/hoersuppe/hoerapi.php
+
 ## getPodcasts
 * action: `getPodcasts`
 * Parameter: -
@@ -65,7 +69,6 @@ Folgende Aktionen sind möglich:
       "obsolete":"",
       "freeze":"",
       "rundfunk":"",
-      "stream":"http:\/\/xsn.io\/wrint.mp3",
       "otitle":"WRINT",
       "contact":
         {
