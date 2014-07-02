@@ -249,9 +249,10 @@ Folgende Aktionen sind möglich:
 	]
 }
 ```
+
 ## getLastEpisodes:
 * action: `getLastEpisodes`
-* Parameter: 
+* Parameter:
 	* `count`: Anzahl der Episoden (optional, default=10)
 		
 * Beschreibung: Gibt die letzten Episoden aus, die in der Hörsuppe angekommen sind.
