@@ -249,4 +249,53 @@ Folgende Aktionen sind möglich:
 	]
 }
 ```
+## getLastEpisodes:
+* action: `getLastEpisodes`
+* Parameter: 
+	* `count`: Anzahl der Episoden (optional, default=10)
+		
+* Beschreibung: Gibt die letzten Episoden aus, die in der Hörsuppe angekommen sind.
+* Beispiel: http://hoersuppe.de/api/?action=getLastEpisodes&count=2
 
+```json
+{
+		"status":1,
+			"msg":"ok",
+			"data":[
+				{
+					"ID": 98946,
+					"post_date": "2014-07-01 12:13:37",
+					"post_date_gmt": "2014-07-01 10:13:37",
+					"post_title": "SiM #665 - Der Arbeits-Rant",
+					"post_name": "sim-665-der-arbeits-rant",
+					"post_modified": "2014-07-01 12:13:37",
+					"post_modified_gmt": "2014-07-01 10:13:37",
+					"post_content_filtered": "",
+					"post_link": "",
+					"post_commentlink": "",
+					"post_mediaurl": "http:\/\/traffic.libsyn.com\/schlaflos\/sim665.mp3",
+					"post_duration": "",
+					"post_content": "Neue Folge, die 665te",
+					"episode_guid": "podlove-driven-guid-2014",
+					"podcast": "sim"
+				},
+				{
+					"ID": 98945,
+					"post_date": "2014-07-01 09:26:53",
+					"post_date_gmt": "2014-07-01 07:26:53",
+					"post_title": "OSMDE036 OSM Talk: Die OpenRailwayMap",
+					"post_name": "osmde036-osm-talk-die-openrailwaymap",
+					"post_modified": "2014-07-01 09:26:53",
+					"post_modified_gmt": "2014-07-01 07:26:53",
+					"post_content_filtered": "",
+					"post_link": "http:\/\/podcast.openstreetmap.de\/2014\/07\/01\/osmde036-osm-talk-die-openrailwaymap\/",
+					"post_commentlink": "",
+					"post_mediaurl": "http:\/\/audio.podcast.openstreetmap.de\/OSMDE036.mp3",
+					"post_duration": "5123",
+					"post_content": "Neue Folge, die 666te",
+					"episode_guid": "podlove-driven-guid-201134",
+					"podcast": "radio-osm"
+				}
+			]
+		}
+```
