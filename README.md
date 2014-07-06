@@ -159,7 +159,7 @@ Folgende Aktionen sind möglich:
 * Parameter:
 	* `dateStart`: erstes abzufragendes Datum (optional, `YY-mm-dd`)
 	* `dateEnd`: letztes abzufragendes Datum (optional, `YY-mm-dd`)
-* Beschreibung: gibt eine Liste aller gelöschten Events mit Löschdatum zurück. Wird kein Startdatum angegeben, gilt das aktuelle Datum als Start.
+* Beschreibung: gibt eine Liste aller gelöschten Events mit Löschdatum zurück. Wird kein Startdatum angegeben, gilt das aktuelle Datum als Start. Bei diesen Datumsangaben handelt es sich um das Datum des Löschvorganges!
 * Beispiel: http://hoersuppe.de/api/?action=getDeleted
 
 ```json
