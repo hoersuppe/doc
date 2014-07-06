@@ -156,8 +156,10 @@ Folgende Aktionen sind möglich:
 
 ## getDeleted
 * Action: `getDeleted`
-* Parameter: keine
-* Beschreibung: gibt eine Liste aller gelöschten Events mit Löschdatum zurück.
+* Parameter:
+	* `dateStart`: erstes abzufragendes Datum (optional, `YY-mm-dd`)
+	* `dateEnd`: letztes abzufragendes Datum (optional, `YY-mm-dd`)
+* Beschreibung: gibt eine Liste aller gelöschten Events mit Löschdatum zurück. Wird kein Startdatum angegeben, gilt das aktuelle Datum als Start.
 * Beispiel: http://hoersuppe.de/api/?action=getDeleted
 
 ```json
